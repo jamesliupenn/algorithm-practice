@@ -1,3 +1,7 @@
+// String compression reads in a string which contains alphabetical characters,
+// and compresses them into the character followed by the count of consecutive letters.
+// i.e. "bbbccdde" will be compressed into "b3c2d2e1"
+
 function stringCompress(str) {
   // Create several empty string, one for the final result,
   // one as previous and one for current placeholders for comparison
