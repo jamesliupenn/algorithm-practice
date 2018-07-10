@@ -1,4 +1,7 @@
-//Fxn to check if str1 and str2 are rotations of each other
+//stringRotation checks to see if two strings are rotations of each other.
+//Rotating meaning that a string is pivoted and rotated from the pivot to form a different string.
+//i.e. "coolbeans" can be pivoted from index 4 and becomes "beanscool"
+
 function stringRotation(str1, str2) {
   var str1str1 = str1.concat(str1);
   //Returns the result of isSubstring
