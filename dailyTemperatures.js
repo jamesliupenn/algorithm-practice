@@ -1,3 +1,6 @@
+// dailyTemperatures takes in a given array of temperatures, and returns an array of how many days 
+// you'll wait until you get a warmer day.
+
 let dailyTemperatures = function(temps) {
   // Stores the length of the original array as it is how many elements we'll need to be dequeuing
   let lenOfTemp = temps.length;
